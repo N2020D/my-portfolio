@@ -98,42 +98,49 @@ export default function Navbar() {
         <div className="lg:hidden">
           <a
             href="#home"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Home
           </a>
           <a
             href="#about"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             About
           </a>
           <a
             href="#projects"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Projects
           </a>
           <a
             href="#journey"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Journey
           </a>
           <a
             href="#education"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Education
           </a>
           <a
             href="#certificates"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Certificates
           </a>
           <a
             href="#contact"
+            onClick={() => setMenuOpen(false)}
             className="block py-2 text-sm text-white/70 transition-colors hover:text-white"
           >
             Contact
