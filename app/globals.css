@@ -1,6 +1,137 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050a14;
+  --foreground: #ffffff;
+
+  --surface: #0b1220;
+  --surface-light: #111b2e;
+
+  --primary: #2563eb;
+  --primary-hover: #3b82f6;
+
+  --cyan: #22d3ee;
+  --cyan-light: #67e8f9;
+
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+
+  --border: #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+
+  /* Soft grid */
+  background-image:
+    linear-gradient(
+      rgba(34, 211, 238, 0.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(34, 211, 238, 0.025) 1px,
+      transparent 1px
+    );
+
+  background-size: 64px 64px;
+  background-position: center top;
+
+  position: relative;
+}
+
+/* Small soft light particles */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  background-image:
+    radial-gradient(
+      circle at 12% 18%,
+      rgba(34, 211, 238, 0.7) 0,
+      rgba(34, 211, 238, 0.15) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 78% 16%,
+      rgba(59, 130, 246, 0.65) 0,
+      rgba(59, 130, 246, 0.12) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 88% 48%,
+      rgba(34, 211, 238, 0.55) 0,
+      rgba(34, 211, 238, 0.1) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 24% 68%,
+      rgba(59, 130, 246, 0.5) 0,
+      rgba(59, 130, 246, 0.1) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 68% 82%,
+      rgba(34, 211, 238, 0.6) 0,
+      rgba(34, 211, 238, 0.1) 2px,
+      transparent 4px
+    );
+
+  animation: softSparkle 4s ease-in-out infinite alternate;
+}
+
+/* A few extremely faint glow points */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  background-image:
+    radial-gradient(
+      circle at 35% 32%,
+      rgba(34, 211, 238, 0.12),
+      transparent 90px
+    ),
+    radial-gradient(
+      circle at 72% 65%,
+      rgba(37, 99, 235, 0.1),
+      transparent 110px
+    );
+
+  animation: softGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes softSparkle {
+  0% {
+    opacity: 0.45;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes softGlow {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
