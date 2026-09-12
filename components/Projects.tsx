@@ -19,7 +19,7 @@ const projects = [
       "A web-based hospital management system developed as a group project to manage hospital-related information and streamline different user activities.",
     technologies: ["MERN Stack", "MongoDB", "React", "Node.js"],
     image: "/projects/hms2.png",
-    github: "https://github.com/Sha-jpg-star/MERN-Group-ProjectEdu",
+    github: "https://github.com/Sha-jpg-star/MERN-Group-Project",
     live: "#",
   },
   {
@@ -48,9 +48,9 @@ const projects = [
     description:
       "A modern personal portfolio website designed to showcase my technical skills, education, certifications and software development projects.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Three.js"],
-    image: "/projects/portfolio.jpg",
-    github: "#",
-    live: "#",
+    image: "/projects/portfolio.png",
+    github: "https://github.com/N2020D/my-portfolio",
+    live: "https://my-portfolio-n2020-d.vercel.app/",
   },
 ];
 

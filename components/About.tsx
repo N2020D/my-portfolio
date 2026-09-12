@@ -146,7 +146,7 @@ export default function About() {
 
               {/* Download CV */}
               <a
-                href="/resume/Niluka-Dasuni-CV.pdf"
+                href="/resume/Niluka-Dasuni-IT-Resume4.pdf"
                 download
                 className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-sm font-medium text-white shadow-lg shadow-blue-600/20 transition-all duration-300 hover:bg-blue-500 hover:shadow-blue-500/30"
               >

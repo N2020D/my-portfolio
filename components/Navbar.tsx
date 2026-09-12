@@ -101,7 +101,7 @@ export default function Navbar() {
 </div>
 
           <a
-            href="/resume/Niluka-Dasuni-CV.pdf"
+            href="/resume/Niluka-Dasuni-IT-Resume4.pdf"
             download
             className="rounded-md border border-blue-500/40 bg-blue-600/10 px-5 py-2.5 text-sm font-medium text-blue-300 transition-all duration-300 hover:border-blue-400 hover:bg-blue-600 hover:text-white"
           >
@@ -149,7 +149,7 @@ export default function Navbar() {
             })}
 
             <a
-              href="/resume/Niluka-Dasuni-CV.pdf"
+              href="/resume/Niluka-Dasuni-IT-Resume4.pdf"
               download
               onClick={() => setMenuOpen(false)}
               className="mt-5 rounded-md bg-blue-600 px-5 py-3 text-center text-sm font-medium text-white transition hover:bg-blue-500"

@@ -11,11 +11,9 @@ import {
 
 import {
   SiTailwindcss,
-  SiBootstrap,
   SiExpress,
   SiMongodb,
   SiTypescript,
-  SiSharp,
 } from "react-icons/si";
 
 const skillGroups = [
@@ -48,10 +46,7 @@ const skillGroups = [
         name: "Tailwind CSS",
         icon: SiTailwindcss,
       },
-      {
-        name: "Bootstrap",
-        icon: SiBootstrap,
-      },
+      
     ],
   },
 
@@ -68,10 +63,7 @@ const skillGroups = [
         name: "Express.js",
         icon: SiExpress,
       },
-      {
-        name: "C#",
-                icon: SiSharp,
-      },
+      
     ],
   },
 

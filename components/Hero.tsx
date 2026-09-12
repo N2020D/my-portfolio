@@ -102,7 +102,7 @@ export default function Hero() {
 
             {/* CV */}
             <a
-              href="/resume/Niluka-Dasuni-CV.pdf"
+              href="/resume/Niluka-Dasuni-IT-Resume4.pdf"
               download
               className="rounded-md border border-slate-700 bg-transparent px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:border-cyan-400 hover:bg-cyan-400/5 hover:text-cyan-300"
             >

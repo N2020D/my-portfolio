@@ -8,7 +8,7 @@ import {
 const certificates = [
   {
     title: "Diploma in Computer Science",
-    issuer: "Lanka Jathika Shramadana Sangamaya",
+    issuer: "Nenasala Kuliyapitiya",
     date: "2024",
     image: "/Certificates/Diploma in computerscience.jpeg",
     description:
@@ -18,7 +18,7 @@ const certificates = [
     title: "Introduction to Python",
     issuer: "Sololearn",
     date: "2024",
-    image: "/certificates/solo python.png",
+    image: "/Certificates/solo python.png",
     description:
       "Completed an introductory Python course covering fundamental programming concepts and Python basics.",
   },

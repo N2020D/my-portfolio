@@ -20,7 +20,7 @@ const education = [
   {
     period: "2023 - 2024",
     title: "Diploma in Computer Science",
-    institution: "Lanka Jathika Shramadana Sangamaya",
+    institution: "Nenasala Kuliyapitiya",
     location: "Sri Lanka",
     description:
       "Completed a one-year Diploma in Computer Science and gained foundational knowledge in computer science and information technology.",
