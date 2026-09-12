@@ -116,7 +116,7 @@ export default function Footer() {
 
             <div className="mt-5">
               <a
-                href="/resume/Niluka-Dasuni-CV.pdf"
+                href="/resume/Niluka-Dasuni-IT-Resume4.pdf"
                 download
                 className="inline-flex rounded-md border border-blue-500/40 bg-blue-600/10 px-4 py-2.5 text-sm font-medium text-blue-300 transition-all duration-300 hover:border-blue-400 hover:bg-blue-600 hover:text-white"
               >
