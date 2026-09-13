@@ -22,6 +22,17 @@ const projects = [
     github: "https://github.com/Sha-jpg-star/MERN-Group-Project",
     live: "#",
   },
+
+   {
+    number: "05",
+    title: "Personal Portfolio",
+    description:
+      "A modern personal portfolio website designed to showcase my technical skills, education, certifications and software development projects.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Three.js"],
+    image: "/projects/portfolio.png",
+    github: "https://github.com/N2020D/my-portfolio",
+    live: "https://my-portfolio-n2020-d.vercel.app/",
+  },
   {
     number: "03",
     title: "EduPathwayHub",
@@ -42,16 +53,7 @@ const projects = [
     github: "#",
     live: "#",
   },
-  {
-    number: "05",
-    title: "Personal Portfolio",
-    description:
-      "A modern personal portfolio website designed to showcase my technical skills, education, certifications and software development projects.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Three.js"],
-    image: "/projects/portfolio.png",
-    github: "https://github.com/N2020D/my-portfolio",
-    live: "https://my-portfolio-n2020-d.vercel.app/",
-  },
+ 
 ];
 
 export default function Projects() {
